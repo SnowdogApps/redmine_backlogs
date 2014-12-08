@@ -23,7 +23,7 @@ gem "icalendar"
 if (redmine_version_major == 2 && redmine_version_minor == 3)
 gem "nokogiri", "< 1.6.0"
 else
-gem "nokogiri"
+# gem "nokogiri"
 end
 gem "open-uri-cached"
 gem "prawn"
